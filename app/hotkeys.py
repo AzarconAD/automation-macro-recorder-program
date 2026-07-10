@@ -1,6 +1,3 @@
-# hotkeys.py
-import threading
-import time
 from typing import Callable, Optional
 
 try:
@@ -12,12 +9,6 @@ except ImportError:
 
 
 class HotkeyManager:
-    """
-    Registers global hotkeys for F8 (record), F9 (stop), F10 (play).
-    All callbacks are invoked from a background thread – the caller must
-    use thread-safe mechanisms (e.g., Tk's `after`) to update GUI widgets.
-    """
-
     def __init__(self,
                  on_record: Optional[Callable] = None,
                  on_stop: Optional[Callable] = None,
@@ -26,56 +17,38 @@ class HotkeyManager:
         self.on_stop = on_stop
         self.on_play = on_play
         self._running = False
-        self._thread: Optional[threading.Thread] = None
+        self._hotkey_ids = []
 
     def start(self):
-        """Start the hotkey listener in a background thread."""
+        """Register global hotkeys using keyboard.add_hotkey."""
         if not KEYBOARD_AVAILABLE:
             return
         if self._running:
             return
         self._running = True
-        self._thread = threading.Thread(target=self._listener_loop, daemon=True)
-        self._thread.start()
-
-    def stop(self):
-        """Stop the hotkey listener."""
-        self._running = False
-        # The keyboard library's listener can be stopped by calling keyboard.unhook_all()
-        # but we want to keep the listener running until we explicitly stop.
-        # We'll rely on the thread exiting when _running becomes False.
-        # However, keyboard.read_key() blocks. We'll use a different approach:
-        # We'll register hotkeys with keyboard.add_hotkey and keep them active.
-        # That way we don't need a blocking loop; we just add and later remove.
-        # This is cleaner.
-        # So we'll change the implementation to use add_hotkey / remove_hotkey.
-        # Let's rewrite:
-    
-    # Better implementation using keyboard.add_hotkey and keyboard.remove_hotkey
-    def start(self):
-        if not KEYBOARD_AVAILABLE:
-            return
-        if self._running:
-            return
-        self._running = True
-        # Register hotkeys
         self._hotkey_ids = []
         if self.on_record:
-            self._hotkey_ids.append(keyboard.add_hotkey('f8', self._wrap_callback(self.on_record)))
+            self._hotkey_ids.append(
+                keyboard.add_hotkey('f8', self._wrap_callback(self.on_record))
+            )
         if self.on_stop:
-            self._hotkey_ids.append(keyboard.add_hotkey('f9', self._wrap_callback(self.on_stop)))
+            self._hotkey_ids.append(
+                keyboard.add_hotkey('f9', self._wrap_callback(self.on_stop))
+            )
         if self.on_play:
-            self._hotkey_ids.append(keyboard.add_hotkey('f10', self._wrap_callback(self.on_play)))
+            self._hotkey_ids.append(
+                keyboard.add_hotkey('f10', self._wrap_callback(self.on_play))
+            )
 
     def stop(self):
+        """Unregister all global hotkeys."""
         if not KEYBOARD_AVAILABLE:
             return
         if not self._running:
             return
         self._running = False
-        # Remove all registered hotkeys
-        for id in getattr(self, '_hotkey_ids', []):
-            keyboard.remove_hotkey(id)
+        for hotkey_id in self._hotkey_ids:
+            keyboard.remove_hotkey(hotkey_id)
         self._hotkey_ids = []
 
     def _wrap_callback(self, callback):
