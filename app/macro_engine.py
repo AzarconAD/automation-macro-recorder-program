@@ -11,11 +11,15 @@ from .config import HOTKEY_RECORD, HOTKEY_STOP, HOTKEY_PLAY
 
 
 class MacroEngine:
+    """
+    Handles recording and playback. All callbacks are invoked from the engine's
+    background threads; the GUI should use `after()` to update widgets safely.
+    """
+
     def __init__(self,
                  status_callback: Optional[Callable[[str], None]] = None,
                  on_recording_stopped: Optional[Callable[[List[MacroEvent]], None]] = None,
                  on_playback_finished: Optional[Callable[[], None]] = None):
-
         self.status_callback = status_callback or (lambda msg: print(msg))
         self.on_recording_stopped = on_recording_stopped or (lambda events: None)
         self.on_playback_finished = on_playback_finished or (lambda: None)
@@ -33,6 +37,9 @@ class MacroEngine:
         self.playback_events: List[MacroEvent] = []
         self.playback_thread: Optional[threading.Thread] = None
         self._stop_playback_requested = False
+
+        # Hotkey keys (to filter out of recording)
+        self._hotkey_keys = {HOTKEY_RECORD, HOTKEY_STOP, HOTKEY_PLAY}
 
     # -------------------- Recording -------------------- #
     def start_recording(self):
@@ -74,6 +81,11 @@ class MacroEngine:
     def _record_event(self, event_type, action, key=None, button=None, x=None, y=None):
         if not self.recording:
             return
+
+        # Filter out hotkey events (F8, F9, F10) so they don't get saved
+        if event_type == 'keyboard' and key in self._hotkey_keys:
+            return
+
         timestamp = time.time() - self.record_start_time
         ev = MacroEvent(
             event_type=event_type,
@@ -94,10 +106,6 @@ class MacroEngine:
         self._record_event('keyboard', 'press', key=key_str)
 
     def _on_key_release(self, key):
-        # Stop recording if F9 is released (the stop hotkey)
-        if hasattr(key, 'name') and key.name == HOTKEY_STOP:
-            self.stop_recording()
-            return
         try:
             key_str = key.char if isinstance(key, KeyCode) else key.name
         except AttributeError:
@@ -156,7 +164,6 @@ class MacroEngine:
             if not self.loop or self._stop_playback_requested:
                 break
 
-        # Cleanup
         self.playing = False
         self._stop_playback_requested = False
         self.status_callback("Playback finished.")
