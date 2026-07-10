@@ -1,0 +1,3332 @@
+[
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1221,
+    "y": 151,
+    "timestamp": 0.8810873031616211
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1221,
+    "y": 151,
+    "timestamp": 0.8819329738616943
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1219,
+    "y": 152,
+    "timestamp": 0.8823416233062744
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1212,
+    "y": 153,
+    "timestamp": 0.8833987712860107
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1202,
+    "y": 156,
+    "timestamp": 0.884162187576294
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1187,
+    "y": 158,
+    "timestamp": 0.8850915431976318
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1110,
+    "y": 168,
+    "timestamp": 0.8862202167510986
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1075,
+    "y": 170,
+    "timestamp": 0.8866660594940186
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1040,
+    "y": 174,
+    "timestamp": 0.8922119140625
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1002,
+    "y": 176,
+    "timestamp": 0.8997581005096436
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 963,
+    "y": 180,
+    "timestamp": 0.9073848724365234
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 925,
+    "y": 182,
+    "timestamp": 0.915086030960083
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 887,
+    "y": 184,
+    "timestamp": 0.9225049018859863
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 845,
+    "y": 186,
+    "timestamp": 0.9301152229309082
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 808,
+    "y": 186,
+    "timestamp": 0.9372742176055908
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 773,
+    "y": 188,
+    "timestamp": 0.9449787139892578
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 739,
+    "y": 188,
+    "timestamp": 0.9521877765655518
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 708,
+    "y": 188,
+    "timestamp": 0.9597265720367432
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 681,
+    "y": 188,
+    "timestamp": 0.9676272869110107
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 660,
+    "y": 188,
+    "timestamp": 0.9750857353210449
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 642,
+    "y": 188,
+    "timestamp": 0.9823379516601562
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 626,
+    "y": 188,
+    "timestamp": 0.9896621704101562
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 609,
+    "y": 188,
+    "timestamp": 0.997586727142334
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 593,
+    "y": 188,
+    "timestamp": 1.0050795078277588
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 578,
+    "y": 188,
+    "timestamp": 1.012251853942871
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 563,
+    "y": 188,
+    "timestamp": 1.020137071609497
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 548,
+    "y": 188,
+    "timestamp": 1.0271964073181152
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 536,
+    "y": 188,
+    "timestamp": 1.0344161987304688
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 526,
+    "y": 188,
+    "timestamp": 1.0420589447021484
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 518,
+    "y": 188,
+    "timestamp": 1.049494981765747
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 511,
+    "y": 188,
+    "timestamp": 1.0570347309112549
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 506,
+    "y": 188,
+    "timestamp": 1.0644309520721436
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 501,
+    "y": 188,
+    "timestamp": 1.0718252658843994
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 495,
+    "y": 188,
+    "timestamp": 1.0791230201721191
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 490,
+    "y": 188,
+    "timestamp": 1.0866916179656982
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 485,
+    "y": 188,
+    "timestamp": 1.0941040515899658
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 480,
+    "y": 188,
+    "timestamp": 1.101703405380249
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 475,
+    "y": 188,
+    "timestamp": 1.109121561050415
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 470,
+    "y": 188,
+    "timestamp": 1.1166532039642334
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 466,
+    "y": 188,
+    "timestamp": 1.1241726875305176
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 461,
+    "y": 188,
+    "timestamp": 1.131678581237793
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 456,
+    "y": 188,
+    "timestamp": 1.1395809650421143
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 450,
+    "y": 187,
+    "timestamp": 1.1467006206512451
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 444,
+    "y": 187,
+    "timestamp": 1.1546297073364258
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 438,
+    "y": 187,
+    "timestamp": 1.1616358757019043
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 433,
+    "y": 186,
+    "timestamp": 1.1691944599151611
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 428,
+    "y": 186,
+    "timestamp": 1.1766536235809326
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 423,
+    "y": 186,
+    "timestamp": 1.1842067241668701
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 419,
+    "y": 186,
+    "timestamp": 1.1917023658752441
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 415,
+    "y": 186,
+    "timestamp": 1.199232816696167
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 412,
+    "y": 186,
+    "timestamp": 1.2066879272460938
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 411,
+    "y": 186,
+    "timestamp": 1.2142407894134521
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 409,
+    "y": 186,
+    "timestamp": 1.2219915390014648
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 409,
+    "y": 186,
+    "timestamp": 1.2292542457580566
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 408,
+    "y": 186,
+    "timestamp": 1.2366485595703125
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 407,
+    "y": 186,
+    "timestamp": 1.2667527198791504
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 406,
+    "y": 185,
+    "timestamp": 1.4620685577392578
+  },
+  {
+    "event_type": "mouse",
+    "action": "press",
+    "key": null,
+    "button": "left",
+    "x": 406,
+    "y": 185,
+    "timestamp": 1.8451526165008545
+  },
+  {
+    "event_type": "mouse",
+    "action": "release",
+    "key": null,
+    "button": "left",
+    "x": 406,
+    "y": 185,
+    "timestamp": 1.950411081314087
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.2595880031585693
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.4111223220825195
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.4134418964385986
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "w",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.4505348205566406
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.554464101791382
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.5870676040649414
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "w",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.6271886825561523
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.7164130210876465
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.7300989627838135
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.859412431716919
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.874188184738159
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.98659348487854
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 2.9941580295562744
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.090033769607544
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.1067800521850586
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.195563316345215
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.2267518043518066
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.2359836101531982
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.3077151775360107
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.3110737800598145
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.3224942684173584
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.402641773223877
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.4266717433929443
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.4508566856384277
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.49859619140625
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.522542953491211
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.539327621459961
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.6421568393707275
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.8028688430786133
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.8500099182128906
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.9465949535369873
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.948010206222534
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 3.9952313899993896
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.067608118057251
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.074777841567993
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.10627555847168
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "9",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.187731504440308
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.202574968338013
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.204581022262573
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.210652112960815
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "9",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.259057521820068
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "u",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.282581329345703
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.33023738861084
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.331526279449463
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.362092733383179
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "u",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.377786874771118
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "8",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.45147442817688
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "1",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.47385048866272
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "2",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.474554538726807
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.481594562530518
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "8",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.52290415763855
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "3",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.5944907665252686
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "h",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 4.946837902069092
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "h",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.027226448059082
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.179189682006836
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.182146787643433
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.258632659912109
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.261619567871094
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.283003330230713
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.426558494567871
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.466342449188232
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.469300985336304
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.523110628128052
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.538822889328003
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.579370737075806
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.683372974395752
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.714089393615723
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.729837656021118
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "d",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.835346221923828
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.8420116901397705
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 5.954736232757568
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.466708183288574
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.4960761070251465
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.527526617050171
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.557852506637573
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.589040756225586
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.620166063308716
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.66579532623291
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.696619749069214
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.729761600494385
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.760920286178589
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.791696786880493
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.823134660720825
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.854123115539551
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 6.8738720417022705
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 7.2178144454956055
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 7.346113204956055
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 7.39393424987793
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 7.51404333114624
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.594139099121094
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.626052379608154
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 406,
+    "y": 185,
+    "timestamp": 8.63996934890747
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 405,
+    "y": 185,
+    "timestamp": 8.647154808044434
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 403,
+    "y": 185,
+    "timestamp": 8.654561042785645
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 401,
+    "y": 185,
+    "timestamp": 8.662028074264526
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 398,
+    "y": 185,
+    "timestamp": 8.669405460357666
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 395,
+    "y": 185,
+    "timestamp": 8.677330255508423
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.681869506835938
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 392,
+    "y": 184,
+    "timestamp": 8.684335947036743
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 388,
+    "y": 183,
+    "timestamp": 8.692119121551514
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 384,
+    "y": 182,
+    "timestamp": 8.69998288154602
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 380,
+    "y": 181,
+    "timestamp": 8.707247495651245
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 376,
+    "y": 180,
+    "timestamp": 8.714994430541992
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 371,
+    "y": 178,
+    "timestamp": 8.722431659698486
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 366,
+    "y": 176,
+    "timestamp": 8.730002164840698
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 362,
+    "y": 174,
+    "timestamp": 8.737458229064941
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 356,
+    "y": 170,
+    "timestamp": 8.744795322418213
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 351,
+    "y": 167,
+    "timestamp": 8.75225043296814
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 345,
+    "y": 162,
+    "timestamp": 8.759645462036133
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 339,
+    "y": 157,
+    "timestamp": 8.767082214355469
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 333,
+    "y": 153,
+    "timestamp": 8.774786949157715
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 327,
+    "y": 148,
+    "timestamp": 8.782063484191895
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.785977363586426
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 321,
+    "y": 143,
+    "timestamp": 8.789564609527588
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.79392957687378
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 316,
+    "y": 138,
+    "timestamp": 8.79709792137146
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 310,
+    "y": 135,
+    "timestamp": 8.80466914176941
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 306,
+    "y": 132,
+    "timestamp": 8.813131332397461
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 303,
+    "y": 129,
+    "timestamp": 8.819786310195923
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 300,
+    "y": 126,
+    "timestamp": 8.827096223831177
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 297,
+    "y": 123,
+    "timestamp": 8.834514856338501
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 295,
+    "y": 120,
+    "timestamp": 8.842377662658691
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 293,
+    "y": 117,
+    "timestamp": 8.849571943283081
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 292,
+    "y": 115,
+    "timestamp": 8.857074975967407
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 290,
+    "y": 112,
+    "timestamp": 8.864866495132446
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 289,
+    "y": 109,
+    "timestamp": 8.872098445892334
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 288,
+    "y": 106,
+    "timestamp": 8.879505395889282
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 287,
+    "y": 105,
+    "timestamp": 8.887482404708862
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 104,
+    "timestamp": 8.894794464111328
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.906238555908203
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 103,
+    "timestamp": 8.909828901290894
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.962145566940308
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 8.977876424789429
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 102,
+    "timestamp": 8.999924182891846
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 102,
+    "timestamp": 9.007096767425537
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 287,
+    "y": 103,
+    "timestamp": 9.014577627182007
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.0178804397583
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 287,
+    "y": 104,
+    "timestamp": 9.022125959396362
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.025816917419434
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 288,
+    "y": 104,
+    "timestamp": 9.029515027999878
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 290,
+    "y": 105,
+    "timestamp": 9.037037134170532
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.041845798492432
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 290,
+    "y": 106,
+    "timestamp": 9.044871091842651
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 291,
+    "y": 106,
+    "timestamp": 9.052040576934814
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 292,
+    "y": 107,
+    "timestamp": 9.059625387191772
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 293,
+    "y": 108,
+    "timestamp": 9.067007064819336
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 293,
+    "y": 109,
+    "timestamp": 9.074592590332031
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 294,
+    "y": 109,
+    "timestamp": 9.082061290740967
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 295,
+    "y": 111,
+    "timestamp": 9.089629650115967
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 296,
+    "y": 113,
+    "timestamp": 9.097249269485474
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 297,
+    "y": 114,
+    "timestamp": 9.104589939117432
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 297,
+    "y": 115,
+    "timestamp": 9.112431526184082
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 298,
+    "y": 116,
+    "timestamp": 9.119498014450073
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 299,
+    "y": 117,
+    "timestamp": 9.127030849456787
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 299,
+    "y": 118,
+    "timestamp": 9.142087459564209
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "f",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.14594316482544
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 300,
+    "y": 119,
+    "timestamp": 9.14946699142456
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.153851509094238
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.186457633972168
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "a",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.257993698120117
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "s",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 9.266039371490479
+  },
+  {
+    "event_type": "mouse",
+    "action": "press",
+    "key": null,
+    "button": "left",
+    "x": 300,
+    "y": 119,
+    "timestamp": 9.375179290771484
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 300,
+    "y": 119,
+    "timestamp": 9.39762258529663
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 300,
+    "y": 119,
+    "timestamp": 9.405212879180908
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 298,
+    "y": 119,
+    "timestamp": 9.412564277648926
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 297,
+    "y": 119,
+    "timestamp": 9.420235395431519
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 294,
+    "y": 119,
+    "timestamp": 9.427472591400146
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 291,
+    "y": 119,
+    "timestamp": 9.434795379638672
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 289,
+    "y": 119,
+    "timestamp": 9.44226360321045
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 119,
+    "timestamp": 9.449851512908936
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 282,
+    "y": 119,
+    "timestamp": 9.457048177719116
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 278,
+    "y": 120,
+    "timestamp": 9.46446418762207
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 275,
+    "y": 120,
+    "timestamp": 9.47248649597168
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 270,
+    "y": 120,
+    "timestamp": 9.479583978652954
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 264,
+    "y": 120,
+    "timestamp": 9.486987352371216
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 258,
+    "y": 120,
+    "timestamp": 9.494547843933105
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 251,
+    "y": 119,
+    "timestamp": 9.502206325531006
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 242,
+    "y": 119,
+    "timestamp": 9.509689331054688
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 234,
+    "y": 118,
+    "timestamp": 9.516978025436401
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 225,
+    "y": 117,
+    "timestamp": 9.524497270584106
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 215,
+    "y": 116,
+    "timestamp": 9.53200888633728
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 205,
+    "y": 114,
+    "timestamp": 9.539559125900269
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 194,
+    "y": 113,
+    "timestamp": 9.5469331741333
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 186,
+    "y": 112,
+    "timestamp": 9.554452419281006
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 176,
+    "y": 111,
+    "timestamp": 9.561951398849487
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 167,
+    "y": 109,
+    "timestamp": 9.569758176803589
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 157,
+    "y": 108,
+    "timestamp": 9.576922416687012
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 148,
+    "y": 107,
+    "timestamp": 9.584835052490234
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 138,
+    "y": 106,
+    "timestamp": 9.591952800750732
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 126,
+    "y": 104,
+    "timestamp": 9.599555492401123
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 116,
+    "y": 103,
+    "timestamp": 9.60695219039917
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 106,
+    "y": 103,
+    "timestamp": 9.614590883255005
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 96,
+    "y": 102,
+    "timestamp": 9.62206244468689
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 86,
+    "y": 102,
+    "timestamp": 9.629759788513184
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 77,
+    "y": 102,
+    "timestamp": 9.637343168258667
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 71,
+    "y": 102,
+    "timestamp": 9.64450192451477
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 64,
+    "y": 102,
+    "timestamp": 9.652029514312744
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 59,
+    "y": 102,
+    "timestamp": 9.65946364402771
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 53,
+    "y": 102,
+    "timestamp": 9.667187929153442
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 48,
+    "y": 102,
+    "timestamp": 9.6750168800354
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 43,
+    "y": 102,
+    "timestamp": 9.682155847549438
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 36,
+    "y": 103,
+    "timestamp": 9.689528703689575
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 29,
+    "y": 103,
+    "timestamp": 9.69721794128418
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 22,
+    "y": 104,
+    "timestamp": 9.70442509651184
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 17,
+    "y": 104,
+    "timestamp": 9.712036371231079
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 12,
+    "y": 104,
+    "timestamp": 9.71959662437439
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 7,
+    "y": 104,
+    "timestamp": 9.727337121963501
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1,
+    "y": 104,
+    "timestamp": 9.734763145446777
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -2,
+    "y": 105,
+    "timestamp": 9.742339611053467
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -3,
+    "y": 105,
+    "timestamp": 9.74978518486023
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -3,
+    "y": 105,
+    "timestamp": 9.757259845733643
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -2,
+    "y": 105,
+    "timestamp": 9.765429496765137
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -2,
+    "y": 105,
+    "timestamp": 9.772547483444214
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -1,
+    "y": 105,
+    "timestamp": 9.779893636703491
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 0,
+    "y": 105,
+    "timestamp": 9.787235260009766
+  },
+  {
+    "event_type": "mouse",
+    "action": "release",
+    "key": null,
+    "button": "left",
+    "x": 0,
+    "y": 105,
+    "timestamp": 10.013433933258057
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": -1,
+    "y": 106,
+    "timestamp": 10.042545080184937
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 0,
+    "y": 106,
+    "timestamp": 10.049700736999512
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 0,
+    "y": 107,
+    "timestamp": 10.065404891967773
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 1,
+    "y": 107,
+    "timestamp": 10.07228946685791
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 2,
+    "y": 107,
+    "timestamp": 10.087886333465576
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 2,
+    "y": 107,
+    "timestamp": 10.095209121704102
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 3,
+    "y": 108,
+    "timestamp": 10.102630376815796
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 4,
+    "y": 108,
+    "timestamp": 10.110382318496704
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 5,
+    "y": 109,
+    "timestamp": 10.117757320404053
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 6,
+    "y": 110,
+    "timestamp": 10.125128030776978
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 8,
+    "y": 110,
+    "timestamp": 10.13257384300232
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 11,
+    "y": 111,
+    "timestamp": 10.140096664428711
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 13,
+    "y": 113,
+    "timestamp": 10.147804737091064
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 17,
+    "y": 115,
+    "timestamp": 10.155014753341675
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 23,
+    "y": 117,
+    "timestamp": 10.162579536437988
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 29,
+    "y": 120,
+    "timestamp": 10.169729471206665
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 34,
+    "y": 122,
+    "timestamp": 10.177231073379517
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 42,
+    "y": 126,
+    "timestamp": 10.184824705123901
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 47,
+    "y": 128,
+    "timestamp": 10.192589282989502
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 55,
+    "y": 132,
+    "timestamp": 10.199753046035767
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 64,
+    "y": 135,
+    "timestamp": 10.207012176513672
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 71,
+    "y": 139,
+    "timestamp": 10.214858770370483
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 80,
+    "y": 143,
+    "timestamp": 10.222518920898438
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 89,
+    "y": 147,
+    "timestamp": 10.230002641677856
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 98,
+    "y": 151,
+    "timestamp": 10.237649202346802
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 107,
+    "y": 154,
+    "timestamp": 10.244970321655273
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 114,
+    "y": 157,
+    "timestamp": 10.252703189849854
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 121,
+    "y": 159,
+    "timestamp": 10.260002136230469
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 128,
+    "y": 162,
+    "timestamp": 10.26746678352356
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 136,
+    "y": 164,
+    "timestamp": 10.275389909744263
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 141,
+    "y": 166,
+    "timestamp": 10.282912969589233
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 147,
+    "y": 169,
+    "timestamp": 10.290323257446289
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 151,
+    "y": 170,
+    "timestamp": 10.298015117645264
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 155,
+    "y": 170,
+    "timestamp": 10.304782390594482
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 159,
+    "y": 173,
+    "timestamp": 10.31236457824707
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 163,
+    "y": 173,
+    "timestamp": 10.320054292678833
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 167,
+    "y": 176,
+    "timestamp": 10.327547311782837
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 169,
+    "y": 176,
+    "timestamp": 10.335264921188354
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 172,
+    "y": 177,
+    "timestamp": 10.342655658721924
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 175,
+    "y": 178,
+    "timestamp": 10.350067377090454
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 178,
+    "y": 179,
+    "timestamp": 10.357401132583618
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 179,
+    "y": 180,
+    "timestamp": 10.365356922149658
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 181,
+    "y": 181,
+    "timestamp": 10.372413873672485
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 182,
+    "y": 181,
+    "timestamp": 10.380360841751099
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 183,
+    "y": 181,
+    "timestamp": 10.387160062789917
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 183,
+    "y": 182,
+    "timestamp": 10.394711017608643
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 184,
+    "y": 182,
+    "timestamp": 10.402380466461182
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 185,
+    "y": 182,
+    "timestamp": 10.417994976043701
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 185,
+    "y": 182,
+    "timestamp": 10.432359457015991
+  },
+  {
+    "event_type": "keyboard",
+    "action": "press",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 10.809829950332642
+  },
+  {
+    "event_type": "keyboard",
+    "action": "release",
+    "key": "backspace",
+    "button": null,
+    "x": null,
+    "y": null,
+    "timestamp": 10.978301048278809
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 186,
+    "y": 182,
+    "timestamp": 11.288339376449585
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 187,
+    "y": 182,
+    "timestamp": 11.289348602294922
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 188,
+    "y": 182,
+    "timestamp": 11.294681549072266
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 190,
+    "y": 182,
+    "timestamp": 11.302181005477905
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 194,
+    "y": 183,
+    "timestamp": 11.310345888137817
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 197,
+    "y": 183,
+    "timestamp": 11.317442893981934
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 201,
+    "y": 183,
+    "timestamp": 11.325231552124023
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 205,
+    "y": 183,
+    "timestamp": 11.332258701324463
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 209,
+    "y": 183,
+    "timestamp": 11.34023666381836
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 214,
+    "y": 183,
+    "timestamp": 11.347155094146729
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 219,
+    "y": 183,
+    "timestamp": 11.35498309135437
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 224,
+    "y": 183,
+    "timestamp": 11.362644910812378
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 229,
+    "y": 183,
+    "timestamp": 11.37005352973938
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 235,
+    "y": 183,
+    "timestamp": 11.377243995666504
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 238,
+    "y": 183,
+    "timestamp": 11.384949445724487
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 243,
+    "y": 183,
+    "timestamp": 11.392238140106201
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 248,
+    "y": 183,
+    "timestamp": 11.39989972114563
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 254,
+    "y": 183,
+    "timestamp": 11.407417297363281
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 259,
+    "y": 183,
+    "timestamp": 11.415241003036499
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 264,
+    "y": 183,
+    "timestamp": 11.422271966934204
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 269,
+    "y": 183,
+    "timestamp": 11.429996728897095
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 274,
+    "y": 183,
+    "timestamp": 11.437567710876465
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 280,
+    "y": 181,
+    "timestamp": 11.44477891921997
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 286,
+    "y": 181,
+    "timestamp": 11.452726602554321
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 292,
+    "y": 181,
+    "timestamp": 11.460238456726074
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 298,
+    "y": 181,
+    "timestamp": 11.467397451400757
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 305,
+    "y": 181,
+    "timestamp": 11.474987745285034
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 312,
+    "y": 182,
+    "timestamp": 11.482386589050293
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 319,
+    "y": 182,
+    "timestamp": 11.48977518081665
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 326,
+    "y": 182,
+    "timestamp": 11.497414827346802
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 332,
+    "y": 182,
+    "timestamp": 11.504806518554688
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 338,
+    "y": 182,
+    "timestamp": 11.512824058532715
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 343,
+    "y": 182,
+    "timestamp": 11.519676923751831
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 348,
+    "y": 182,
+    "timestamp": 11.527475833892822
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 353,
+    "y": 183,
+    "timestamp": 11.535151958465576
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 357,
+    "y": 183,
+    "timestamp": 11.54291820526123
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 360,
+    "y": 183,
+    "timestamp": 11.549805879592896
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 362,
+    "y": 183,
+    "timestamp": 11.557718515396118
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 364,
+    "y": 183,
+    "timestamp": 11.564754486083984
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 366,
+    "y": 183,
+    "timestamp": 11.572924137115479
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 366,
+    "y": 183,
+    "timestamp": 11.579750299453735
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 367,
+    "y": 183,
+    "timestamp": 11.587944507598877
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 368,
+    "y": 183,
+    "timestamp": 11.595165491104126
+  },
+  {
+    "event_type": "mouse",
+    "action": "move",
+    "key": null,
+    "button": null,
+    "x": 369,
+    "y": 183,
+    "timestamp": 11.609810829162598
+  }
+]

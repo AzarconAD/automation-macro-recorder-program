@@ -9,17 +9,14 @@ from .hotkeys import HotkeyManager
 from .utils import is_valid_macro_name
 
 class MacroApp(tk.Tk):
-
-    # Simple state machine so buttons can't fire out-of-order actions
-    # (e.g. clicking Play while a recording is in progress).
     STATE_IDLE = "idle"
     STATE_RECORDING = "recording"
     STATE_PLAYING = "playing"
 
     def __init__(self):
         super().__init__()
-        self.title("Macro Programmer")
-        self.geometry("600x500")
+        self.title("Macro Recorder")
+        self.geometry("420x430")
         self.resizable(False, False)
 
         style = ttk.Style()
@@ -47,6 +44,7 @@ class MacroApp(tk.Tk):
         )
         self.hotkey_manager.start()
 
+        self.create_menu()
         self.create_widgets()
 
         # In‑window hotkeys
@@ -59,26 +57,56 @@ class MacroApp(tk.Tk):
         self.refresh_macro_list()
         self.update_ui_state()
         self.status_label.config(text="Ready")
+        self.playing_label.config(text="")  # clear playing indicator
+        self.recording_label.config(text="")  # clear recording indicator
+
+    def create_menu(self):
+        menubar = tk.Menu(self)
+
+        file_menu = tk.Menu(menubar, tearoff=0)
+        file_menu.add_command(label="Save Macro", command=self.save_callback)
+        file_menu.add_command(label="Load Macro", command=self.load_callback)
+        file_menu.add_command(label="Delete Macro", command=self.delete_callback)
+        file_menu.add_separator()
+        file_menu.add_command(label="Exit", command=self.on_close)
+        menubar.add_cascade(label="File", menu=file_menu)
+
+        help_menu = tk.Menu(menubar, tearoff=0)
+        help_menu.add_command(label="Shortcuts", command=self.show_shortcuts)
+        menubar.add_cascade(label="Help", menu=help_menu)
+
+        self.config(menu=menubar)
+
+    def show_shortcuts(self):
+        messagebox.showinfo(
+            "Keyboard Shortcuts",
+            "F8  —  Record\nF9  —  Stop\nF10 —  Play\n\n"
+            "These hotkeys work globally, even when the window isn't focused."
+        )
 
     def create_widgets(self):
-        top_frame = ttk.Frame(self, padding="10")
+        # ---------- Top Frame: File name + Save/Load/Delete ---------- #
+        top_frame = ttk.Frame(self, padding=(10, 10, 10, 6))
         top_frame.pack(fill='x')
 
         ttk.Label(top_frame, text="Macro Name:").pack(side='left', padx=(0, 5))
 
-        self.filename_entry = ttk.Entry(top_frame, textvariable=self.filename_var, width=25)
+        self.filename_entry = ttk.Entry(top_frame, textvariable=self.filename_var, width=16)
         self.filename_entry.pack(side='left', padx=5)
 
-        self.save_btn = ttk.Button(top_frame, text="Save", command=self.save_callback)
-        self.save_btn.pack(side='left', padx=5)
+        self.save_btn = ttk.Button(top_frame, text="Save", width=7, command=self.save_callback)
+        self.save_btn.pack(side='left', padx=3)
 
-        self.load_btn = ttk.Button(top_frame, text="Load", command=self.load_callback)
-        self.load_btn.pack(side='left', padx=5)
+        self.load_btn = ttk.Button(top_frame, text="Load", width=7, command=self.load_callback)
+        self.load_btn.pack(side='left', padx=3)
 
-        self.delete_btn = ttk.Button(top_frame, text="Delete", command=self.delete_callback)
-        self.delete_btn.pack(side='left', padx=5)
+        self.delete_btn = ttk.Button(top_frame, text="Delete", width=7, command=self.delete_callback)
+        self.delete_btn.pack(side='left', padx=3)
 
-        middle_frame = ttk.Frame(self, padding="10")
+        ttk.Separator(self, orient='horizontal').pack(fill='x', padx=10)
+
+        # ---------- Middle Frame: List of saved macros ---------- #
+        middle_frame = ttk.Frame(self, padding=(10, 8, 10, 8))
         middle_frame.pack(fill='both', expand=True)
 
         ttk.Label(middle_frame, text="Saved Macros:").pack(anchor='w', pady=(0, 5))
@@ -86,7 +114,7 @@ class MacroApp(tk.Tk):
         list_frame = ttk.Frame(middle_frame)
         list_frame.pack(fill='both', expand=True)
 
-        self.macro_listbox = tk.Listbox(list_frame, height=12, selectmode=tk.SINGLE)
+        self.macro_listbox = tk.Listbox(list_frame, height=8, selectmode=tk.SINGLE)
         self.macro_listbox.pack(side='left', fill='both', expand=True)
         self.macro_listbox.bind('<Double-Button-1>', self.load_callback)
 
@@ -94,23 +122,41 @@ class MacroApp(tk.Tk):
         scrollbar.pack(side='right', fill='y')
         self.macro_listbox.config(yscrollcommand=scrollbar.set)
 
-        bottom_frame = ttk.Frame(self, padding="10")
+        ttk.Separator(self, orient='horizontal').pack(fill='x', padx=10)
+
+        # ---------- Bottom Frame: Record/Stop/Play + Loop ---------- #
+        bottom_frame = ttk.Frame(self, padding=(10, 8, 10, 4))
         bottom_frame.pack(fill='x')
 
-        self.record_btn = ttk.Button(bottom_frame, text="Record (F8)", command=self.record_callback)
-        self.record_btn.pack(side='left', padx=5)
+        self.record_btn = ttk.Button(bottom_frame, text="⏺ Record", command=self.record_callback)
+        self.record_btn.pack(side='left', padx=3)
 
-        self.stop_btn = ttk.Button(bottom_frame, text="Stop (F9)", command=self.stop_callback)
-        self.stop_btn.pack(side='left', padx=5)
+        self.stop_btn = ttk.Button(bottom_frame, text="⏹ Stop", command=self.stop_callback)
+        self.stop_btn.pack(side='left', padx=3)
 
-        self.play_btn = ttk.Button(bottom_frame, text="Play (F10)", command=self.play_callback)
-        self.play_btn.pack(side='left', padx=5)
+        self.play_btn = ttk.Button(bottom_frame, text="▶ Play", command=self.play_callback)
+        self.play_btn.pack(side='left', padx=3)
 
-        self.loop_check = ttk.Checkbutton(bottom_frame, text="Loop", variable=self.loop_var)
-        self.loop_check.pack(side='left', padx=20)
+        self.loop_check = ttk.Checkbutton(bottom_frame, text="Loop playback", variable=self.loop_var)
+        self.loop_check.pack(side='left', padx=(15, 0))
 
+        hint_frame = ttk.Frame(self, padding=(10, 0, 10, 4))
+        hint_frame.pack(fill='x')
+        ttk.Label(
+            hint_frame, text="F8 Record   ·   F9 Stop   ·   F10 Play",
+            font=('TkDefaultFont', 8), foreground='gray40'
+        ).pack(anchor='w')
+
+        # ---------- "Now Recording" / "Now Playing" indicators ---------- #
+        self.recording_label = ttk.Label(self, text="", font=('TkDefaultFont', 9, 'bold'), foreground='red')
+        self.recording_label.pack(side='bottom', anchor='w', padx=10, pady=(0, 2))
+
+        self.playing_label = ttk.Label(self, text="", font=('TkDefaultFont', 9, 'bold'), foreground='blue')
+        self.playing_label.pack(side='bottom', anchor='w', padx=10, pady=(0, 2))
+
+        # ---------- Status Bar ---------- #
         self.status_label = ttk.Label(self, text="", relief='sunken', anchor='w')
-        self.status_label.pack(side='bottom', fill='x', padx=10, pady=(0, 10))
+        self.status_label.pack(side='bottom', fill='x', padx=10, pady=(4, 10))
 
     # -------------------- UI state helpers -------------------- #
     def update_ui_state(self):
@@ -135,18 +181,23 @@ class MacroApp(tk.Tk):
         self.after(0, lambda: self.status_label.config(text=msg))
 
     def _on_recording_stopped(self, events: List[MacroEvent]):
+        self.after(0, lambda: self.recording_label.config(text=""))
         if events:
-            self.filename_var.set("")  # clear the name, since this is unsaved
-            self.status_label.config(text=f"Recorded {len(events)} events – ready to play.")
-        self.after(0, self._set_state_idle)
+            self.after(0, self._set_state_idle)
+        else:
+            self.after(0, self._set_state_idle)
 
     def _on_playback_finished(self):
         self.after(0, self._set_state_idle)
+        self.after(0, lambda: self.playing_label.config(text=""))  # clear playing indicator
 
     def _set_state_idle(self):
         self.state = self.STATE_IDLE
         self.update_ui_state()
         self.status_label.config(text="Ready")
+        # Clear the recording/playing indicators if still showing
+        self.recording_label.config(text="")
+        self.playing_label.config(text="")
 
     # -------------------- Core actions -------------------- #
     def save_callback(self):
@@ -208,8 +259,20 @@ class MacroApp(tk.Tk):
     def record_callback(self, event=None):
         if self.state != self.STATE_IDLE:
             return
+
+        # ----- require a filename before recording ----- #
+        name = self.filename_var.get().strip()
+        if not is_valid_macro_name(name):
+            messagebox.showwarning(
+                "Name Required",
+                "Please enter a valid macro name before recording."
+            )
+            self.filename_entry.focus_set()
+            return
+
         self.state = self.STATE_RECORDING
         self.update_ui_state()
+        self.recording_label.config(text=f"● Recording: {name}")
         self.engine.start_recording()
 
     def stop_callback(self, event=None):
@@ -217,16 +280,32 @@ class MacroApp(tk.Tk):
             return
         if self.engine.is_recording():
             self.engine.stop_recording()
+            self.recording_label.config(text="")  # clear recording indicator
         elif self.engine.is_playing():
             self.engine.stop_playback()
-        # The engine's callbacks will reset the state to idle
+            self.playing_label.config(text="")  # clear playing indicator
 
     def play_callback(self, event=None):
         if self.state != self.STATE_IDLE:
             return
         if not self.engine.playback_events:
-            messagebox.showinfo("No Macro Loaded", "Please load a macro before playing.")
+            messagebox.showinfo("No Macro Loaded", "Please load a macro or record one first.")
             return
+
+        # Show which macro is playing
+        name = self.filename_var.get().strip()
+        if name:
+            self.playing_label.config(text=f"▶ Playing: {name}")
+            try:
+                idx = self.macro_listbox.get(0, tk.END).index(name)
+                self.macro_listbox.selection_clear(0, tk.END)
+                self.macro_listbox.selection_set(idx)
+                self.macro_listbox.see(idx)
+            except ValueError:
+                pass
+        else:
+            self.playing_label.config(text="▶ Playing (unsaved)")
+
         self.state = self.STATE_PLAYING
         self.update_ui_state()
         loop = self.loop_var.get()
@@ -242,7 +321,6 @@ class MacroApp(tk.Tk):
             if not messagebox.askyesno("Quit", "A macro is still recording/playing. Stop and quit?"):
                 return
             self.stop_callback()
-            # Give time for threads to finish before destroying
             self.after(200, self._really_close)
         else:
             self._really_close()
