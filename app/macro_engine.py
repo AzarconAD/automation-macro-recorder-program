@@ -75,6 +75,9 @@ class MacroEngine:
 
         count = len(self.recorded_events)
         self.status_callback(f"Recording stopped. {count} events captured.")
+        if self.recorded_events:
+            self.playback_events = self.recorded_events.copy()
+
         self.on_recording_stopped(self.recorded_events)
 
     # ---------- Recording callbacks ---------- #

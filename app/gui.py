@@ -135,6 +135,9 @@ class MacroApp(tk.Tk):
         self.after(0, lambda: self.status_label.config(text=msg))
 
     def _on_recording_stopped(self, events: List[MacroEvent]):
+        if events:
+            self.filename_var.set("")  # clear the name, since this is unsaved
+            self.status_label.config(text=f"Recorded {len(events)} events – ready to play.")
         self.after(0, self._set_state_idle)
 
     def _on_playback_finished(self):
