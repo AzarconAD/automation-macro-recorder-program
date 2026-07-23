@@ -1,3 +1,4 @@
+import sys, os
 import tkinter as tk
 from tkinter import ttk, messagebox
 from typing import List
@@ -8,6 +9,10 @@ from .models import MacroEvent
 from .hotkeys import HotkeyManager
 from .utils import is_valid_macro_name
 
+def resource_path(relative_path):
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
+
 class MacroApp(tk.Tk):
     STATE_IDLE = "idle"
     STATE_RECORDING = "recording"
@@ -16,8 +21,21 @@ class MacroApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Macro Recorder")
-        self.iconbitmap("assets/record.ico")
-        self.geometry("520x530")
+
+        # icon
+        try:
+            self.iconbitmap(resource_path("assets/record.ico"))
+        except tk.TclError:
+            pass
+
+        # window size
+        try:
+            dpi = self.winfo_fpixels('1i')
+            scaling = dpi / 72.0
+        except tk.TclError:
+            scaling = 1.0
+        self.tk.call('tk', 'scaling', scaling)
+        self.geometry("500x520")
         self.resizable(False, False)
 
         style = ttk.Style()
