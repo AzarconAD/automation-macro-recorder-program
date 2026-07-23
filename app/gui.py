@@ -17,7 +17,7 @@ class MacroApp(tk.Tk):
         super().__init__()
         self.title("Macro Recorder")
         self.iconbitmap("assets/record.ico")
-        self.geometry("420x430")
+        self.geometry("520x530")
         self.resizable(False, False)
 
         style = ttk.Style()
